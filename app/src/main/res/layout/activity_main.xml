@@ -9,8 +9,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="group47.testproject.MainActivity">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/num1"
+        android:layout_alignStart="@+id/num1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button"
+        android:layout_below="@+id/num2"
+        android:layout_alignLeft="@+id/num2"
+        android:layout_alignStart="@+id/num2"
+        android:layout_marginTop="63dp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Sum"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
 </RelativeLayout>
