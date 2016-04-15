@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public int sum(int a, int b) {
-        return a - b;
+        return a + b;
     }
 
 
