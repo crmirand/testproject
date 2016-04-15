@@ -29,7 +29,7 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MainActivity>{
         int a = 1;
         int b = 35;
         assertEquals(a-b, mainActivity.sub(a,b));
-        assertEquals(a-b, mainActivity.sub(a, -b));
+        assertEquals(a+b, mainActivity.sub(a, -b));
         assertEquals(0, mainActivity.sub(0,0));
     }
 }
